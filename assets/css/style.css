@@ -182,7 +182,8 @@ body {
   bottom: 10px;
   background-color: var(--beige-dr);
   height: 1px;
-  width: 1000%;
+  width: 100%;
+  overflow: hidden;
 }
 
 .about__item-img {
@@ -449,6 +450,7 @@ body {
 .tobuy {
   background-image: url(../img/tobuy-bg.jpg);
   background-repeat: no-repeat;
+  object-fit: cover;
   padding: 140px 0;
 }
 
