@@ -450,7 +450,8 @@ body {
 .tobuy {
   background-image: url(../img/tobuy-bg.jpg);
   background-repeat: no-repeat;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
   padding: 140px 0;
 }
 
