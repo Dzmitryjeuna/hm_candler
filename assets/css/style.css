@@ -16,7 +16,10 @@ body {
   font: 400 normal 14px/16px var(--comfortaa), sans-serif;
   background-color: var(--rose);
   color: var(--bl);
-  overflow-x: hidden;
+}
+
+.main {
+  overflow-x: clip;
 }
 
 .container {
@@ -183,7 +186,6 @@ body {
   background-color: var(--beige-dr);
   height: 1px;
   width: 100%;
-  overflow: hidden;
 }
 
 .about__item-img {
