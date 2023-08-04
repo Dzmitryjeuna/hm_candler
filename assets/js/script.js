@@ -50,10 +50,10 @@ qanTitles.forEach.call(qanTitles, function (qanTitle) {
 
     if (currentText.classList.contains('questions__item-text--visible')) {
       currentItem.style.paddingBottom = '20px'
-      currentText.style.maxHeight = currentText.scrollHeight + 'px';
+      currentText.style.maxHeight = currentText.scrollHeight + 'px'
     } else {
       currentItem.style.paddingBottom = null
-      currentText.style.maxHeight = null;
+      currentText.style.maxHeight = null
     }
   });
 }); 
