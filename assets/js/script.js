@@ -42,8 +42,9 @@ const qanTitles = document.querySelectorAll('.questions__item-title');
 qanTitles.forEach.call(qanTitles, function (qanTitle) {
   qanTitle.addEventListener('click', function() {
 
-    const currentItem = qan.parentElement.querySelector('.questions__item');
-    const currentText = qanTitle.parentElement.querySelector('.questions__item-text');
+
+    const currentItem = qanTitle.parentElement;
+    const currentText = currentItem.querySelector('.questions__item-text');
 
     qanTitle.classList.toggle('questions__item-title--active');
     currentText.classList.toggle('questions__item-text--visible');
